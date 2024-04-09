@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(transferir.png)  ;
+    border: 5px;
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 80px 20px;
+    background-color: rgb(253, 253, 253);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    color-scheme: black;
+    margin-bottom: 40px;
+}
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.img-container {
+    width: 45%;
+    margin-right: 4%;
+}
+.img-container img {
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+.texto-container {
+    width: 50%;
+    margin-left: 4%;
+}
+.texto-container h2 {
+    font-size: 2rem;
+    color: #3f51b5;
+    margin-bottom: 20px;
+}
+.texto-container p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.texto-container ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+.texto-container li {
+    margin-bottom: 10px;
+}
+.img{ width: 100%;
+  
+}
+.img2{
+    position: absolute;
+    padding: 30px 90px 90px 500px;
+    height: 230px; ;
+    
+    
+}
